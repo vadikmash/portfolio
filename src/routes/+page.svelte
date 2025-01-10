@@ -1,31 +1,45 @@
 <script lang="ts">
-	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Vadzim Mashnitski - Home</title>
+	<meta name="description" content="Vadzim Mashnitski's Home Page" />
 </svelte:head>
 
 <section>
 	<h1>
-		<span class="welcome">
+		<!-- <span class="welcome">
 			<picture>
 				<source srcset={welcome} type="image/webp" />
 				<img src={welcomeFallback} alt="Welcome" />
 			</picture>
-		</span>
+		</span> -->
 
-		to your new<br />SvelteKit app
+		Vadzim Mashnitski 
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
+	<p>
+		I'm a software engineer, creator, musician. I specialize in web/mobile apps architecture and full-stack development.
+		When not busy with my main job, I create my own cool apps and services, write songs, travel.  
+	</p>
 
-	<Counter />
+	<div>
+		<ul>
+			<li><a href="mailto:vadikmash@gmail.com">vadikmash@gmail.com</a></li>
+			<li><a href="https://github.com/vadikmash">GitHub</a></li>
+			<li><a href="https://linedin.com/in/vadikmash">LinkedIn</a></li>
+			<li><a href="https://x.com/vadikmash">X (Twitter)</a></li>
+		</ul>
+	</div>
+
+	<h2>Tech Projects</h2>
+
+	<h2>Music</h2>
+
+	<h2>Wanna hire me? Check out my CV</h2>
+
 </section>
 
 <style>

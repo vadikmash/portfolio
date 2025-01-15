@@ -7,12 +7,8 @@
 </svelte:head>
 
 <section>
-	<h1 class="text-xl text-bold">
-		Vadzim Mashnitski 
-	</h1>
-
-	<p>
-		I'm a software engineer, creator, musician. I specialize in web/mobile apps architecture and full-stack development.
+	<p class="text-2xl font-light">
+		I'm a software engineer, creator, musician. I specialize in web/mobile apps full-stack development.
 		When not busy with my main job, I create my own cool apps and services, write songs, travel.  
 	</p>
 

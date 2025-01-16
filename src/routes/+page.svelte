@@ -7,9 +7,10 @@
 </svelte:head>
 
 <section>
-	<p class="text-2xl font-light">
-		I'm a software engineer, creator, musician. I specialize in web/mobile apps full-stack development.
-		When not busy with my main job, I create my own cool apps and services, write songs, travel.  
+	<p class="mt-3 text-2xl font-light">
+		I'm a software engineer, creator, musician. I specialize in web/mobile apps full-stack
+		development. When not busy with my main job, I create my own cool apps and services, write
+		songs, travel.
 	</p>
 
 	<div>
@@ -26,5 +27,4 @@
 	<h2>Music</h2>
 
 	<h2>Wanna hire me? Check out my CV</h2>
-
 </section>

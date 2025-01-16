@@ -1,5 +1,5 @@
 <script lang="ts">
-	import NavLink from './NavLink.svelte';
+	import NavLink from './components/NavLink.svelte';
 </script>
 
 <header class="flex w-full justify-center p-6 pb-10">

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { i18n } from '$lib/i18n';
 	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
-	import Header from './Header.svelte';
+	import Header from './components/Header/Header.svelte';
 	import '../app.css';
 
 	let { children } = $props();
@@ -9,7 +9,7 @@
 
 <ParaglideJS {i18n}>
 	<div>
-		<div class="min-h-screen flex flex-col">
+		<div class="flex min-h-screen flex-col">
 			<Header></Header>
 			<main class="flex-1 px-6">
 				{@render children()}

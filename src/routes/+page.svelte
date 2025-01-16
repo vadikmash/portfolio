@@ -18,7 +18,7 @@
 			<ul class="flex flex-wrap gap-x-3 gap-y-1 md:flex-col">
 				<li><a href="mailto:vadikmash@gmail.com">vadikmash@gmail.com</a></li>
 				<li><a href="https://github.com/vadikmash">GitHub</a></li>
-				<li><a href="https://linedin.com/in/vadikmash">LinkedIn</a></li>
+				<li><a href="https://linkedin.com/in/vadikmash">LinkedIn</a></li>
 				<li><a href="https://x.com/vadikmash">X (Twitter)</a></li>
 			</ul>
 		</div>

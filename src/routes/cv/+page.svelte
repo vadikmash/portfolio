@@ -18,7 +18,7 @@
 </svelte:head>
 
 <section
-	class="mt-3 flex flex-wrap items-start justify-between gap-5 border-b border-gray-200 pb-6"
+	class="mt-3 flex flex-col items-start justify-between gap-5 border-b border-gray-200 pb-6 md:flex-row"
 >
 	<div class="md:basis-2/3">
 		<div class="flex items-center gap-5">
@@ -27,21 +27,20 @@
 				alt="Vadzim Mashnitski"
 				class="-ml-0 h-[70px] w-[70px] rounded-full"
 			/>
-			<div class="flex flex-col items-center">
-				<h2 class="text-2xl font-bold">Vadzim Mashnitski</h2>
-				<h3 class="mt-1 font-thin text-gray-400">Full-Stack Software Engineer</h3>
+			<div class="flex flex-col">
+				<h2 class="text-2xl font-bold md:text-3xl">Vadzim Mashnitski</h2>
+				<h3 class="mt-1 text-xs font-thin text-gray-400 md:text-sm">
+					Full-Stack Software Engineer | Web Architect
+				</h3>
 			</div>
 		</div>
 	</div>
 
-	<div>
-		<ul class="flex flex-wrap gap-x-3 gap-y-1 md:flex-col md:items-end">
-			<li><a href="mailto:vadikmash@gmail.com">vadikmash@gmail.com</a></li>
-			<li><a href="https://github.com/vadikmash">GitHub</a></li>
-			<li><a href="https://linkedin.com/in/vadikmash">LinkedIn</a></li>
-			<li><a href="https://x.com/vadikmash">X (Twitter)</a></li>
-		</ul>
-	</div>
+	<ul class="flex flex-wrap gap-x-4 gap-y-1 md:flex-col md:items-end">
+		<li><a href="mailto:vadikmash@gmail.com">vadikmash@gmail.com</a></li>
+		<li><a href="https://github.com/vadikmash">GitHub</a></li>
+		<li><a href="https://linkedin.com/in/vadikmash">LinkedIn</a></li>
+	</ul>
 </section>
 
 <section class="mt-5 border-b border-gray-200 pb-6">

@@ -16,7 +16,7 @@
 			</main>
 		</div>
 
-		<footer>
+		<footer class="py-3">
 			<div>© 2024—2025</div>
 			<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
 		</footer>

@@ -8,7 +8,7 @@
 </script>
 
 <ParaglideJS {i18n}>
-	<div class="mx-auto max-w-screen-md px-3">
+	<div class="mx-auto max-w-screen-md px-4">
 		<div class="flex min-h-screen flex-col">
 			<Header></Header>
 			<main class="flex-1">

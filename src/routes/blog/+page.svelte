@@ -9,4 +9,4 @@
 	<meta name="description" content="Vadzim Mashnitski's Blog" />
 </svelte:head>
 
-<h1 class="mb-2 text-4xl font-bold">Blog</h1>
+<h1 class="mb-2 text-4xl font-bold">Personal Blog</h1>

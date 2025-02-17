@@ -8,7 +8,7 @@
 </script>
 
 <ParaglideJS {i18n}>
-	<div class="mx-auto max-w-screen-md px-4">
+	<div class="mx-auto max-w-[800px] px-4">
 		<div class="flex min-h-screen flex-col">
 			<Header></Header>
 			<main class="flex-1">
@@ -17,7 +17,7 @@
 		</div>
 
 		<footer class="py-3">
-			<div>© 2024—2025</div>
+			<div>© {new Date().getFullYear()} Vadzim Mashnitski</div>
 			<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
 		</footer>
 	</div>

@@ -37,9 +37,9 @@
 	</div>
 
 	<ul class="flex flex-wrap gap-x-4 gap-y-1 md:flex-col md:items-end">
-		<li><a href="mailto:vadikmash@gmail.com">vadikmash@gmail.com</a></li>
 		<li><a href="https://github.com/vadikmash">GitHub</a></li>
 		<li><a href="https://linkedin.com/in/vadikmash">LinkedIn</a></li>
+		<li><a href="mailto:vadikmash@gmail.com">vadikmash@gmail.com</a></li>
 	</ul>
 </section>
 
@@ -67,14 +67,14 @@
 
 	<ul class="flex flex-col gap-y-3">
 		<li>
-			<strong><a href="https://bsu.by"> Belarusian State University</a></strong>
+			<strong><a href="https://bsu.by" target="_blank"> Belarusian State University</a></strong>
 			(2018 - 2022):<br />
 			Bachelor degree in Applied Informatics (Faculty of Radiophysics and Computer Technologies)
 		</li>
 		<li>
 			<strong><a href="https://rs.school/" target="_blank"> The Rolling Scopes School</a></strong>
 			(2019):<br />
-			<a href="https://app.rs.school/certificate/n4la9xpk">Certificate</a>
+			<a href="https://app.rs.school/certificate/n4la9xpk" target="_blank">Certificate</a>
 		</li>
 	</ul>
 </section>

@@ -8,10 +8,10 @@
 
 <section class="mt-3">
 	<section class="flex flex-col gap-x-12 gap-y-6 md:flex-row">
-		<p class="text-2xl md:basis-2/3">
-			I'm a software engineer, creator, musician. I specialize in full-stack development of web and
-			mobile apps. When not busy with my main job, I create cool apps and services of my own, write
-			songs, travel.
+		<p class="text-3xl md:basis-2/3">
+			A full-stack software engineer building quality & impactful products. A huge fan of web
+			technologies as well as the art & craft of software development itself. I also enjoy making
+			music, traveling and being a creator.
 		</p>
 
 		<div class="md:basis-1/3">
@@ -25,7 +25,7 @@
 	</section>
 
 	<section class="mt-10">
-		<h2 class="mt-8 text-3xl font-bold">Tech Projects</h2>
+		<h2 class="mt-8 text-3xl font-bold">Blog</h2>
 
 		<h2 class="mt-8 text-3xl font-bold">Music</h2>
 

@@ -19,7 +19,6 @@
 				hideImage={isCvPage}
 			/>
 			<NavLink label="Projects" path="/projects" />
-			<NavLink label="CV" path="/cv" isHeader />
 			<NavLink label="Blog" path="/blog" />
 		</ul>
 	</nav>

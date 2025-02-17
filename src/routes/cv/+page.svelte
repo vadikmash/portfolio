@@ -46,7 +46,7 @@
 <section class="mt-5 border-b border-gray-200 pb-6">
 	<ul class="flex flex-col gap-3">
 		<li>
-			<strong>Summary:</strong> Professional Full Stack Software Engineer with more than {yearsOfExperience}
+			<strong>Summary:</strong> Professional Full-Stack Software Engineer with more than {yearsOfExperience}
 			years of web & mobile development experience.
 		</li>
 		<li><strong>Years of experience:</strong> {yearsOfExperience}+</li>

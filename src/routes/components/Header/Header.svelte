@@ -1,6 +1,9 @@
 <script lang="ts">
+	import { page } from '$app/state';
 	import NavLink from './components/NavLink.svelte';
 	import avatarSource from '$lib/images/avatar.jpg';
+
+	const isCvPage = $derived(page.url.pathname.includes('/cv'));
 </script>
 
 <header class="flex w-full justify-center py-6">
@@ -10,11 +13,13 @@
 				label="Vadzim Mashnitski"
 				path="/"
 				isHeader
+				alternativeLabel={isCvPage ? 'Home' : ''}
 				imageSource={avatarSource}
 				imageAlt="avatar"
+				hideImage={isCvPage}
 			/>
 			<NavLink label="Projects" path="/projects" />
-			<NavLink label="CV" path="/cv" />
+			<NavLink label="CV" path="/cv" isHeader />
 			<NavLink label="Blog" path="/blog" />
 		</ul>
 	</nav>

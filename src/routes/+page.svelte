@@ -14,7 +14,7 @@
 			songs, travel.
 		</p>
 
-		<div class="md:mt-0 md:basis-1/3">
+		<div class="md:basis-1/3">
 			<ul class="flex flex-wrap gap-x-3 gap-y-1 md:flex-col">
 				<li><a href="mailto:vadikmash@gmail.com">vadikmash@gmail.com</a></li>
 				<li><a href="https://github.com/vadikmash">GitHub</a></li>
@@ -25,10 +25,13 @@
 	</section>
 
 	<section class="mt-10">
-		<h2 class="mt-5 text-3xl font-bold">Tech Projects</h2>
+		<h2 class="mt-8 text-3xl font-bold">Tech Projects</h2>
 
-		<h2 class="mt-5 text-3xl font-bold">Music</h2>
+		<h2 class="mt-8 text-3xl font-bold">Music</h2>
 
-		<h2 class="mt-5 text-3xl font-bold">Wanna hire me? Check out my CV</h2>
+		<h2 class="mt-8 text-3xl font-bold">Wanna hire me?</h2>
+		<p class="mt-2 text-xl">
+			<a href="/cv">Check out my CV!</a>
+		</p>
 	</section>
 </section>

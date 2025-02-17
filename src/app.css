@@ -35,5 +35,5 @@ a {
 
 a:hover {
 	box-shadow: none;
-	color: #777777
+	border-color: #0066cc;
 }

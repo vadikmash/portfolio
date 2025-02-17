@@ -64,4 +64,21 @@
 
 <section class="mt-5 flex flex-wrap items-start justify-between gap-y-5">
 	<h4 class="text-xl font-bold">Education</h4>
+
+	<ul class="flex flex-col gap-y-3">
+		<li>
+			<strong><a href="https://bsu.by"> Belarusian State University</a></strong>
+			(2018 - 2022):<br />
+			Bachelor degree in Applied Informatics (Faculty of Radiophysics and Computer Technologies)
+		</li>
+		<li>
+			<strong
+				><a href="https://school.rollingscopes.com/" target="_blank">
+					The Rolling Scopes School</a
+				></strong
+			>
+			(2019):<br />
+			<a href="https://app.rs.school/certificate/n4la9xpk">Certificate</a>
+		</li>
+	</ul>
 </section>

@@ -8,9 +8,9 @@
 </script>
 
 <ParaglideJS {i18n}>
-	<div class="mx-auto max-w-[800px] px-4">
+	<div class="mx-auto max-w-[800px] px-3">
 		<div class="flex min-h-screen flex-col">
-			<Header></Header>
+			<Header />
 			<main class="flex-1">
 				{@render children()}
 			</main>

@@ -8,7 +8,7 @@
 
 <section class="mt-3">
 	<section class="flex flex-col gap-x-12 gap-y-6 md:flex-row">
-		<p class="text-2xl font-light md:basis-2/3">
+		<p class="text-2xl md:basis-2/3">
 			I'm a software engineer, creator, musician. I specialize in full-stack development of web and
 			mobile apps. When not busy with my main job, I create cool apps and services of my own, write
 			songs, travel.

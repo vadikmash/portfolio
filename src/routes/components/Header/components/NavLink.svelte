@@ -23,7 +23,7 @@
 	{#if isCurrentPath && isHeader}
 		<h1 class="flex items-center justify-center">
 			{#if imageSource}
-				<a href={path} class="border-none">
+				<a href={path} class={`border-none ${hideImage ? 'w-0' : ''}`}>
 					<img
 						src={imageSource}
 						alt={imageAlt}
@@ -38,7 +38,7 @@
 	{:else}
 		<span class="flex items-center justify-center">
 			{#if imageSource}
-				<a href={path} class="border-none">
+				<a href={path} class={`border-none ${hideImage ? 'w-0' : ''}`}>
 					<img
 						src={imageSource}
 						alt={imageAlt}

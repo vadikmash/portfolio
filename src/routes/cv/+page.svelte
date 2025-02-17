@@ -29,7 +29,7 @@
 			/>
 			<div class="flex flex-col">
 				<h2 class="text-2xl font-bold md:text-3xl">Vadzim Mashnitski</h2>
-				<h3 class="mt-1 text-xs font-thin text-gray-400 md:text-sm">
+				<h3 class="mt-1 text-xs font-light text-gray-400 md:text-sm">
 					Full-Stack Software Engineer | Web Architect
 				</h3>
 			</div>

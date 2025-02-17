@@ -72,11 +72,7 @@
 			Bachelor degree in Applied Informatics (Faculty of Radiophysics and Computer Technologies)
 		</li>
 		<li>
-			<strong
-				><a href="https://school.rollingscopes.com/" target="_blank">
-					The Rolling Scopes School</a
-				></strong
-			>
+			<strong><a href="https://rs.school/" target="_blank"> The Rolling Scopes School</a></strong>
 			(2019):<br />
 			<a href="https://app.rs.school/certificate/n4la9xpk">Certificate</a>
 		</li>

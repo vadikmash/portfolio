@@ -11,7 +11,7 @@
 		<p class="text-3xl md:basis-2/3">
 			A full-stack software engineer building quality & impactful products. A huge fan of web
 			technologies as well as the art & craft of software development itself. I also enjoy making
-			music, traveling and being a creator.
+			music, traveling, creating.
 		</p>
 
 		<div class="md:basis-1/3">
@@ -25,7 +25,7 @@
 	</section>
 
 	<section class="mt-10">
-		<h2 class="mt-8 text-3xl font-bold">Blog</h2>
+		<h2 class="mt-8 text-3xl font-bold">Recent Posts</h2>
 
 		<h2 class="mt-8 text-3xl font-bold">Music</h2>
 

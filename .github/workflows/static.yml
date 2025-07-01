@@ -32,8 +32,9 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build SvelteKit
-        env:
-          BASE_PATH: '/${{ github.event.repository.name }}'
+        # enable this if hosting on username.github.io/repo-name
+        # env:
+        # BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           pnpm run build
 

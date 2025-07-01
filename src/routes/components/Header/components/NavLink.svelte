@@ -21,7 +21,7 @@
 
 <li aria-current={isCurrentPath ? 'page' : undefined}>
 	{#if isCurrentPath && isHeader}
-		<h1 class="flex items-center justify-center">
+		<h1 class="items-center justify-center flex">
 			{#if imageSource}
 				<a href={path} class={`border-none ${hideImage ? 'w-0' : ''}`}>
 					<img

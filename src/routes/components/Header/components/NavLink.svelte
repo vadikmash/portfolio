@@ -13,11 +13,8 @@
 	} = $props();
 
 	const isCurrentPath = $derived(
-		(page.url.pathname.includes(path) && path !== base) ||
-			(page.url.pathname === path && path === base)
+		page.url.pathname.slice(1).startsWith(path || '/') || page.url.pathname === path
 	);
-
-	$effect(() => console.log(page.url.pathname, isCurrentPath));
 </script>
 
 <li aria-current={isCurrentPath ? 'page' : undefined}>

@@ -12,15 +12,15 @@
 		<ul class="flex items-center gap-4 md:gap-6">
 			<NavLink
 				label="Vadzim Mashnitski"
-				path={base}
+				path={`${base}/`}
 				isHeader
 				alternativeLabel={isCvPage ? 'Home' : ''}
 				imageSource={avatarSource}
 				imageAlt="avatar"
 				hideImage={isCvPage}
 			/>
-			<NavLink label="Projects" path="projects" />
-			<NavLink label="Blog" path="blog" />
+			<NavLink label="Projects" path={`${base}/projects`} />
+			<NavLink label="Blog" path={`${base}/blog`} />
 		</ul>
 	</nav>
 </header>

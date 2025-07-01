@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -30,7 +31,7 @@
 
 		<h2 class="mt-8 text-3xl font-bold">Wanna hire me?</h2>
 		<p class="mt-2 text-xl">
-			<a href="cv">Check out my CV!</a>
+			<a href={`${base}/cv`}>Check out my CV!</a>
 		</p>
 	</section>
 </section>

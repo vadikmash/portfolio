@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { page } from '$app/state';
 	import NavLink from './components/NavLink.svelte';
 	import avatarSource from '$lib/images/avatar.jpg';
@@ -11,15 +12,15 @@
 		<ul class="flex items-center gap-4 md:gap-6">
 			<NavLink
 				label="Vadzim Mashnitski"
-				path="/"
+				path={base}
 				isHeader
 				alternativeLabel={isCvPage ? 'Home' : ''}
 				imageSource={avatarSource}
 				imageAlt="avatar"
 				hideImage={isCvPage}
 			/>
-			<NavLink label="Projects" path="/projects" />
-			<NavLink label="Blog" path="/blog" />
+			<NavLink label="Projects" path="projects" />
+			<NavLink label="Blog" path="blog" />
 		</ul>
 	</nav>
 </header>

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import { base } from '$app/paths';
 
 	const {
 		label,
@@ -12,8 +13,8 @@
 	} = $props();
 
 	const isCurrentPath = $derived(
-		(page.url.pathname.includes(path) && path !== '/') ||
-			(page.url.pathname === path && path === '/')
+		(page.url.pathname.includes(path) && path !== base) ||
+			(page.url.pathname === path && path === base)
 	);
 
 	$effect(() => console.log(page.url.pathname, isCurrentPath));
@@ -21,7 +22,7 @@
 
 <li aria-current={isCurrentPath ? 'page' : undefined}>
 	{#if isCurrentPath && isHeader}
-		<h1 class="items-center justify-center flex">
+		<h1 class="flex items-center justify-center">
 			{#if imageSource}
 				<a href={path} class={`border-none ${hideImage ? 'w-0' : ''}`}>
 					<img

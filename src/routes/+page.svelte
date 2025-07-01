@@ -9,8 +9,8 @@
 <section class="mt-3">
 	<section class="flex flex-col gap-x-12 gap-y-6 md:flex-row">
 		<p class="text-3xl md:basis-2/3">
-			A full-stack software engineer building quality & impactful products. A fan of the art of
-			software development. Web3 enthusiast. Enjoy making music, traveling, creating stuff.
+			A software engineer building quality & impactful products. Web3 enthusiast. Enjoy making
+			music, traveling, creating new things.
 		</p>
 
 		<div class="md:basis-1/3">

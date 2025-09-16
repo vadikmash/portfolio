@@ -11,7 +11,7 @@
 	<section class="flex flex-col gap-x-12 gap-y-6 md:flex-row">
 		<p class="text-3xl md:basis-2/3">
 			A software engineer building quality & impactful products. Web3 enthusiast. Enjoy making
-			music, traveling, creating new things.
+			music, traveling, creating.
 		</p>
 
 		<div class="md:basis-1/3">

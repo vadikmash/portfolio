@@ -24,7 +24,8 @@
 		</div>
 	</section>
 
-	<section class="mt-10">
+	<!-- TODO: uncomment this when actual content is added -->
+	<!-- <section class="mt-10">
 		<h2 class="mt-8 text-3xl font-bold">Recent Posts</h2>
 
 		<h2 class="mt-8 text-3xl font-bold">Music</h2>
@@ -33,5 +34,5 @@
 		<p class="mt-2 text-xl">
 			<a href={`${base}/cv`}>Check out my CV!</a>
 		</p>
-	</section>
+	</section> -->
 </section>

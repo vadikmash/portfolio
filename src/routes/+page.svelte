@@ -10,7 +10,7 @@
 <section class="mt-3">
 	<section class="flex flex-col gap-x-12 gap-y-6 md:flex-row">
 		<p class="text-3xl md:basis-2/3">
-			A software engineer building quality & impactful products. Web3 enthusiast. Enjoy making
+			I'm a software engineer building quality & impactful products, Web3 enthusiast. I enjoy making
 			music, traveling, creating.
 		</p>
 
